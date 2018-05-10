@@ -1,0 +1,7 @@
+#like 01, u can also find hostname in /etc.
+#in there you can modify the hostname to make it permanent.
+
+#edit and update in both files. 
+
+echo /etc/hosts
+echo /etc/hostname

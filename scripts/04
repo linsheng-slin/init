@@ -1,0 +1,13 @@
+
+#!/bin/bash
+
+var=$(md5sum -c /root/t.md5)
+md5sum /etc/crontab >/root/t.md5
+var2=$(md5sum -c /root/t.md5)
+
+if [ "$var" != "$var2" ]
+then
+	echo "Modified" | mail -s "Modified" root
+fi
+
+#set up 0 0 0 * 0-6 root ./04 in /etc/crontab

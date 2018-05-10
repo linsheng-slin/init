@@ -1,0 +1,8 @@
+
+apt-get update && apt-get upgrade >> /var/log/update_script.log
+
+#to schedule echo '0 4 * * 1 root ./02' | crontab
+# or directly go into /etc/crontab and add it there
+                # minute (0-59) hour (0-23) day(1-31) month(1-12) weekday(0-6) command
+#crontab -l to view -e to change/edit
+#https://www.howtogeek.com/101288/how-to-schedule-tasks-on-linux-an-introduction-to-crontab-files/

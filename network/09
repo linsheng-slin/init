@@ -1,0 +1,10 @@
+
+#nslookup slash16.org 8.8.8.8
+#vs
+#nslookup 42.fr 8.8.8.8
+
+echo "42.fr returned 2 ip address in the Class B range.
+where as slash16.org returned Class A with more alternatives. "
+
+#Class B	 128.1.0.1 to 191.255.255.254
+#(Supports 65,534 hosts on each of 16,382 networks)

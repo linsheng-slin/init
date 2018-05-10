@@ -1,0 +1,5 @@
+#most info is located in /etc 
+#like ports, server type, ssh ...
+
+echo /etc/debian_version
+#debian_version is the file. 

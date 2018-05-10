@@ -1,0 +1,5 @@
+
+echo "nat (10.90.1.11)"
+
+#Network Address Translation. 
+#Using NAT in this way allows network engineers to more efficiently route internal network traffic to the same resources, and allow access to more ports, while restricting access at the firewall. It also allows detailed logging of communications between the network and the outside world.

@@ -1,0 +1,5 @@
+cat /var/run/resolv.conf
+
+#or cat /etc/resolv.conf
+#which is a symbolic link
+#leads to ^

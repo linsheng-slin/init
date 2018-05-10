@@ -1,0 +1,4 @@
+dig +short -x 10.51.1.81
+
+#+short prvide a terse answer. Print the answer in a verbose form
+#-x option is supplied to indicate a reverse look up. 

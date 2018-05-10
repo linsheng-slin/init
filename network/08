@@ -1,0 +1,6 @@
+
+echo yes
+
+#yes. They all return a class A IP address. 
+#They all have similar leading number which which starts with 52.84.245....
+#class A(1.0.0.1 to 126.255.255.254) which can support 16.7million hosts on each of 126 networks. 

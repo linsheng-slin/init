@@ -1,0 +1,1 @@
+echo "cant not write in a read only file"

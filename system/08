@@ -1,0 +1,5 @@
+#again in /etc you'll find a directory related to ssh. 
+#open that directory and you'll find ssh related config/keys
+
+#so 
+echo "the file is ssh_host_rsa_key in side of /etc/ssh"

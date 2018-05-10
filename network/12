@@ -1,0 +1,4 @@
+ping -c1 -W1 10.51.1.253 && echo 'server reachable' || echo 'server not reachable'
+
+#-c count Echo_Response packets
+#-W waitime (time in milliseconds)

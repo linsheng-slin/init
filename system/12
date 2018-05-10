@@ -1,0 +1,5 @@
+du -sh /var/*
+
+# du = estimate file space usage
+# -s total / summary size
+# -h human readable

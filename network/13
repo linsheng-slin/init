@@ -1,0 +1,4 @@
+echo "dhcp"
+#use traceroute 10.51.1.253
+#final destination shows name which indicates the type
+#"dhcp-dns"

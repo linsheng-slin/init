@@ -1,0 +1,3 @@
+kill -KILL PID 
+
+#find pid using jobs -p

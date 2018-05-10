@@ -1,0 +1,5 @@
+tail -f /var/log/syslog&
+
+# add & brings to back ground.
+# check using jobs
+# kill PID kills the job. 
